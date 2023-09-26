@@ -1,0 +1,49 @@
+
+body{
+    background-color: antiquewhite;
+}
+
+
+
+#container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(233, 206, 171);
+    margin: 10px;
+    padding: 10px;
+    width: 900px;
+}
+
+
+h3, p{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.resultadoPorPregunta{
+    background-color: bisque;
+    border-radius: 16px;
+    margin: 10px;
+    padding: 10px;
+}
+
+.btn{
+    border: none;
+    background-color: rgb(237, 156, 5);
+    box-shadow: none;
+    border-radius: 10px;
+    color: white;
+    width: 100px;
+    height: 20px;
+}
+
+.btn:hover{
+    background-color: red;
+}
+
+.btn:active{
+    background-color: rgb(245, 116, 84);
+}
+
+
+

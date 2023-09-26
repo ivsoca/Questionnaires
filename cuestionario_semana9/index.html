@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Document</title>
+</head>
+<body>
+    
+    <header>
+        <h1>Preguntas</h1>
+        <h3>Cuestionario semana 7</h3>
+    </header>
+    
+    <section id="container">
+        <form name="quizForm" onsubmit="return verificarRespuestas()">
+
+            <h4>1-Las funciones "flecha" son funciones que siempre retornan un valor booleano "Verdaro" o "Falso", y tienen una sintaxis parecida a la siguiente: () => valorBooleano</h3>
+
+                <input type="radio" value="true" name="question1"> True
+                <input type="radio" value="false" name="question1"> False
+                <p id="resultadoPorPregunta1" class="resultadoPorPregunta"></p>
+            
+                <br>
+
+                <h4>2-Una función "flecha" nos permite escribir de forma más compacta una función, y en muchos casos es una buena alternativa a las funciones declaradas con la palabra reservada "function".</h4>
+
+                <input type="radio" value="true" name="question2"> True
+                <input type="radio" value="false" name="question2"> False
+                <p id="resultadoPorPregunta2" class="resultadoPorPregunta"></p>
+
+                <br>
+
+                <h4>3-El operador typeof nos permite conocer el tipo de dato de una variable.</h4>
+
+                <input type="radio" value="true" name="question3"> True
+                <input type="radio" value="false" name="question3"> False
+                <p id="resultadoPorPregunta3" class="resultadoPorPregunta"></p>
+                
+                <br>
+
+                <h4>4-UEl método sort() de los arrays, nos pemite quitar los valores que no queremos que estén en un array. Por ejemplo:</h4>
+
+                    <p><i>[1, 2, 3, 4, 5, 6].sort(element => element > 3);</i></p>
+                    
+                    <p>Nos devuelve un nuevo array con todos los números mayores a 3.</p>
+                    
+
+                <input type="radio" value="true" name="question4"> True
+                <input type="radio" value="false" name="question4"> False
+                <p id="resultadoPorPregunta4" class="resultadoPorPregunta"></p>
+
+                <br>
+
+                <h4>5-El método filter() de los arrays, nos pemite quitar los valores que no queremos que estén en un nuevo array. Por ejemplo:</h4>
+
+                    <p><i>[ 1, 2, 3, 4, 5, 6].filter(element => element > 3);</i></p>
+                    
+                    <p>Nos devuelve un nuevo array con todos los números mayores a 3.</p>
+
+                <input type="radio" value="true" name="question5"> True
+                <input type="radio" value="false" name="question5"> False
+                <p id="resultadoPorPregunta5" class="resultadoPorPregunta"></p>
+
+                <br>
+
+                <h4>6-El método sort() ordena los elementos de un arreglo (array) localmente y devuelve el arreglo ordenado. Localmente significa que el array original se reordena.</h4>
+
+                <input type="radio" value="true" name="question6"> True
+                <input type="radio" value="false" name="question6"> False
+                <p id="resultadoPorPregunta6" class="resultadoPorPregunta"></p>
+
+                <br>
+
+                <h4>7-El método filter() filtra los elementos de un array localmente y devuelve el array filtrado. Localmente significa que modifica los elementos del array original y no retorna una copia.</h4>
+
+                <input type="radio" value="true" name="question7"> True
+                <input type="radio" value="false" name="question7"> False
+                <p id="resultadoPorPregunta7" class="resultadoPorPregunta"></p>
+
+                <br>
+
+                <h4>8-El método sort() tiene como parámetro opcional una función de comparación que permite especificar de qué manera se ordenarán los elementos.</h4>
+
+                <input type="radio" value="true" name="question8"> True
+                <input type="radio" value="false" name="question8"> False
+                <p id="resultadoPorPregunta8" class="resultadoPorPregunta"></p>
+
+                <br>
+
+                <h4>9-El localStorage nos permite guardar pares clave/valor en nuestra página a pesar de que el navegador se cierre (los datos persisten). </h4>
+
+                    <p>Para almacenar un valor se realiza por ejemplo:</p>
+                    <p><i>localStorage.setItem("clave", "valor que quiero guardar");</i></p>
+                    
+                    <p>Y para obtenerlo es:</p>
+                    <p><i>localStorage.setItem("clave");</i></p>
+                    
+                    <p>Para eliminarlo:</p>
+                    <p><i>localStorage.getItem("clave");</i></p>
+                    
+
+                <input type="radio" value="true" name="question9"> True
+                <input type="radio" value="false" name="question9"> False
+                <p id="resultadoPorPregunta9" class="resultadoPorPregunta"></p>
+
+                <br>
+
+                <h4>10-El localStorage nos permite guardar pares clave/valor en nuestra página a pesar de que el navegador se cierre (los datos persisten). </h4>
+
+                    <p>A continuación se detallan las operaciones que podemos realizar:</p>
+                    
+                    <p>Para almacenar un valor:</p>
+                    <p><i>localStorage.setItem("clave", "valor que quiero guardar");</i></p>
+                    
+                    <p>Para obtenerlo es:</p>
+                    <p><i>localStorage.getItem("clave");</i></p>
+                    
+                    <p>Para eliminarlo:</p>
+                    <p><i>localStorage.removeItem("clave");</i></p>
+                    
+                    <p>Para limpiar todo el localStorage:</p>
+                    <p><i>localStorage.clear();</i></p>
+                    
+
+                <input type="radio" value="true" name="question10"> True
+                <input type="radio" value="false" name="question10"> False
+                <p id="resultadoPorPregunta10" class="resultadoPorPregunta"></p>
+                
+
+                <input class="btn" type="submit" value="enviar">
+                <button class="btn" id="btn1">Dime porque</button>
+            <p id="resultadoTotal"></p>
+        </form>
+    </section>
+
+
+    <script src="./preguntas.js"></script>
+</body>
+</html>
