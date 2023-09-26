@@ -1,0 +1,28 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    background-color: antiquewhite;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.cuestionarios{
+    margin: 5px;
+    background-color: rgb(233, 206, 171);
+    height: 60px;
+    width: 160px;
+    border-radius: 10px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 30px;
+    line-height: 60px;
+}
+
+.cuestionarios:hover{
+    background-color: rgb(158, 188, 199);
+}
