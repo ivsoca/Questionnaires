@@ -14,30 +14,37 @@
     </header>
     
     <section id="container">
-        <form name="quizForm" onsubmit="return verificarRespuestas()">
-
-            <h4>1-Git es un sistema de control de versiones que nos permite elegir la versión de los lenguajes que usamos en nuestros proyectos,
+        <form name="quizForm" onsubmit="return verificarRespuestas(), imagenesPut()">
+            
+            <h4 >1-Git es un sistema de control de versiones que nos permite elegir la versión de los lenguajes que usamos en nuestros proyectos,
                 por ejemplo, en JavaScript podemos elegir entre ECMAScript 5 o ECMAScript 6..</h3>
 
-                <input type="radio" value="true" name="question1"> True
+                <input type="radio" value="true" name="question1" > True
                 <input type="radio" value="false" name="question1"> False
                 <p id="resultadoPorPregunta1" class="resultadoPorPregunta"></p>
-            
-                <br>
+                <p id="infoPregunta1" class="infoPregunta"></p>
 
+            
+                <!-- <div id="container-img"></div> -->
+
+                <br>
+            
                 <h4>2-Cuando subo un cambio desde mi repositorio local a GitHub, usualmente decimos que hacemos un "push".</h4>
 
                 <input type="radio" value="true" name="question2"> True
                 <input type="radio" value="false" name="question2"> False
                 <p id="resultadoPorPregunta2" class="resultadoPorPregunta"></p>
+                <p id="infoPregunta2" class="infoPregunta"></p>
+
 
                 <br>
-
                 <h4>3-Cuando descargamos un repositorio de GitHub a nuestra computadora, usualmente decimos que estamos haciendo un "clon" del repo.</h4>
 
                 <input type="radio" value="true" name="question3"> True
                 <input type="radio" value="false" name="question3"> False
                 <p id="resultadoPorPregunta3" class="resultadoPorPregunta"></p>
+                <p id="infoPregunta3" class="infoPregunta"></p>
+                
                 
                 <br>
 
@@ -47,6 +54,8 @@
                 <input type="radio" value="true" name="question4"> True
                 <input type="radio" value="false" name="question4"> False
                 <p id="resultadoPorPregunta4" class="resultadoPorPregunta"></p>
+                <p id="infoPregunta4" class="infoPregunta"></p>
+
 
                 <br>
 
@@ -55,6 +64,8 @@
                 <input type="radio" value="true" name="question5"> True
                 <input type="radio" value="false" name="question5"> False
                 <p id="resultadoPorPregunta5" class="resultadoPorPregunta"></p>
+                <p id="infoPregunta5" class="infoPregunta"></p>
+
 
                 <br>
 
@@ -63,6 +74,8 @@
                 <input type="radio" value="true" name="question6"> True
                 <input type="radio" value="false" name="question6"> False
                 <p id="resultadoPorPregunta6" class="resultadoPorPregunta"></p>
+                <p id="infoPregunta6" class="infoPregunta"></p>
+
 
                 <br>
 
@@ -71,6 +84,8 @@
                 <input type="radio" value="true" name="question7"> True
                 <input type="radio" value="false" name="question7"> False
                 <p id="resultadoPorPregunta7" class="resultadoPorPregunta"></p>
+                <p id="infoPregunta7" class="infoPregunta"></p>
+
 
                 <br>
 
@@ -79,6 +94,8 @@
                 <input type="radio" value="true" name="question8"> True
                 <input type="radio" value="false" name="question8"> False
                 <p id="resultadoPorPregunta8" class="resultadoPorPregunta"></p>
+                <p id="infoPregunta8" class="infoPregunta"></p>
+
 
                 <br>
 
@@ -87,6 +104,9 @@
                 <input type="radio" value="true" name="question9"> True
                 <input type="radio" value="false" name="question9"> False
                 <p id="resultadoPorPregunta9" class="resultadoPorPregunta"></p>
+                <p id="infoPregunta9" class="infoPregunta"></p>
+
+                
 
                 <br>
 
@@ -95,9 +115,10 @@
                 <input type="radio" value="true" name="question10"> True
                 <input type="radio" value="false" name="question10"> False
                 <p id="resultadoPorPregunta10" class="resultadoPorPregunta"></p>
-                
+                <p id="infoPregunta10" class="infoPregunta"></p>
 
-                <input class="btn" type="submit" value="enviar">
+                
+                <input class="btn" type="submit" value="enviar" id="btn2">
                 <button class="btn" id="btn1">Dime porque</button>
             <p id="resultadoTotal"></p>
         </form>
