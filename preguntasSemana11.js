@@ -27,7 +27,7 @@ document.forms["quizForm"].addEventListener("submit", function (event) {
             resultadoPorPregunta.style.backgroundColor = "rgba(49, 202, 6, 0.89)";
             resultadoPorPregunta.style.color = "white"
             resultadoPorPregunta.style.borderRadius  = "20px"
-            resultadoPorPregunta.style.height  = "20px"
+            resultadoPorPregunta.style.height  = "29px"
             resultadoPorPregunta.style.padding  = "4px"
 
             // Agregar una imagen
@@ -40,7 +40,7 @@ document.forms["quizForm"].addEventListener("submit", function (event) {
             resultadoPorPregunta.style.backgroundColor = "rgb(246, 58, 45)";
             resultadoPorPregunta.style.color = "white"
             resultadoPorPregunta.style.borderRadius  = "20px"
-            resultadoPorPregunta.style.height  = "20px"
+            resultadoPorPregunta.style.height  = "29px"
             resultadoPorPregunta.style.padding  = "4px"
         }
     }
