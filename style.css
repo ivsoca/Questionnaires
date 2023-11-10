@@ -4,28 +4,27 @@ html, body {
     background-color: antiquewhite;
 }
 
-.container {
+  .container {
     display: flex;
     justify-content: center;
+    flex-direction: column;
     align-items: center;
     height: 100%;
-}
-
-
-
-
-.cuestionarios{
-    margin: 5px;
+} 
+  .cuestionarios{
+    margin: 10px;
     background-color: rgb(233, 206, 171);
-    height: 60px;
-    width: 160px;
     border-radius: 10px;
+    height: 60px;
+    width: 200px;
     text-align: center;
     text-decoration: none;
     font-size: 30px;
     line-height: 60px;
 }
 
+
+
 .cuestionarios:hover{
-    background-color: rgb(158, 188, 199);
+    background-color: rgb(250, 232, 208);
 }
