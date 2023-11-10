@@ -1,7 +1,7 @@
 html, body {
     height: 100%;
     margin: 0;
-    background-color: antiquewhite;
+    background-color: rgb(112, 73, 23);
 }
 
   .container {
@@ -22,8 +22,6 @@ html, body {
     font-size: 30px;
     line-height: 60px;
 }
-
-
 
 .cuestionarios:hover{
     background-color: rgb(250, 232, 208);
