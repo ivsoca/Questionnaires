@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styleSemana11.css">
+    <title>Semana 14</title>
+</head>
+<body>
+    
+    <header>
+        <h1>Preguntas</h1>
+        <h3>Cuestionario semana 14</h3>
+    </header>
+    
+    <section id="container">
+        <form name="quizForm" onsubmit="return verificarRespuestas()">
+
+            <h4>1-¿Cuál de las siguientes afirmaciones es correcta con respecto al responsive design?</h3>
+
+                <input type="radio" value="true" name="question1"> 
+                El diseño responsivo es un conjunto de técnicas y buenas prácticas que garantizan una buena experiencia de usuario en distintos dispositivos sin importar el tamaño de su pantalla. <br>
+                <input type="radio" value="false" name="question1"> Responsive Design es un estilo de arquitectura de software que garantiza que la aplicación se ejecute adecuadamente en cualquier dispositivo. <br>
+                <input type="radio" value="false" name="question1"> El diseño responsivo es un conjunto de buenas prácticas en JavaScript, entre las cuales se incluye nombrar las variables en inglés y en camelCase. <br>
+                <input type="radio" value="false" name="question1"> 
+                El diseño responsivo garantiza que JavaScript pueda ejecutar adecuadamente una aplicación. <br>
+                <p id="resultadoPorPregunta1" class="resultadoPorPregunta"></p>
+                <p id="infoPregunta1" class="infoPregunta"></p>
+
+            
+                <br>
+
+                <h4>2-Las unidades relativas en CSS pueden ayudar a que nuestro diseño se adapte a distintos tamaños de pantalla.</h4>
+
+                <input type="radio" value="true" name="question2"> True
+                <input type="radio" value="false" name="question2"> False
+                <p id="resultadoPorPregunta2" class="resultadoPorPregunta"></p>
+                <p id="infoPregunta2" class="infoPregunta"></p>
+
+
+                <br>
+
+                <h4>3-Un framework es lo mismo que una librería. Por ejemplo, cuando creamos un archivo JS con utilidades, estamos creando nuestro propio framework.</h4>
+
+                <input type="radio" value="true" name="question3"> True
+                <input type="radio" value="false" name="question3"> False
+                <p id="resultadoPorPregunta3" class="resultadoPorPregunta"></p>
+                <p id="infoPregunta3" class="infoPregunta"></p>
+
+                
+                <br>
+
+                <h4>4-Un CDN es una librería que permite cargar frameworks a nuestro proyecto.</h4>
+
+                <input type="radio" value="true" name="question4"> True
+                <input type="radio" value="false" name="question4"> False
+                <p id="resultadoPorPregunta4" class="resultadoPorPregunta"></p>
+                <p id="infoPregunta4" class="infoPregunta"></p>
+
+
+                <br>
+
+                <h4>5-Un componente en Bootstrap se refiere a una pieza de código HTML que colocamos en nuestra página que cumple alguna determinada función. Por ejemplo una barra de navegación es un componente.
+                    </h4>
+
+
+                <input type="radio" value="true" name="question5"> True
+                <input type="radio" value="false" name="question5"> False
+                <p id="resultadoPorPregunta5" class="resultadoPorPregunta"></p>
+                <p id="infoPregunta5" class="infoPregunta"></p>
+
+
+                <br>
+
+                <h4>6-Las media queries utilizan selectores CSS para determinar el tamaño de la pantalla a la cuál aplicar un estilo determinado.</h4>
+
+                <input type="radio" value="true" name="question6"> True
+                <input type="radio" value="false" name="question6"> False
+                <p id="resultadoPorPregunta6" class="resultadoPorPregunta"></p>
+                <p id="infoPregunta6" class="infoPregunta"></p>
+
+
+                <br>
+
+                <h4>7-</h4>
+
+                <input type="radio" value="true" name="question7"> True
+                <input type="radio" value="false" name="question7"> False
+                <p id="resultadoPorPregunta7" class="resultadoPorPregunta"></p>
+                <p id="infoPregunta7" class="infoPregunta"></p>
+
+
+                <br>
+
+                <h4>8-Bootstrap es un framework de diseño frontend, por lo tanto permite definir cómo se interactúa con el servidor y los JSON.</h4>
+
+                <input type="radio" value="true" name="question8"> True
+                <input type="radio" value="false" name="question8"> False
+                <p id="resultadoPorPregunta8" class="resultadoPorPregunta"></p>
+                <p id="infoPregunta8" class="infoPregunta"></p>
+
+
+                <br>
+
+                <h4>9-Acerca de los contenedores flexibles, indica cuál de las siguientes afirmaciones es falsa:</h4>
+
+                <input type="radio" value="true" name="question9"> Los contenedores flexibles nos permiten manejar adecuadamente el diseño en varias filas y varias columnas al mismo tiempo.
+                <input type="radio" value="false" name="question9"> 
+                Los contenedores flexibles permiten manejar adecuadamente el diseño en una sola dimensión (en una fila o en una columna).
+                <input type="radio" value="false" name="question9"> Si establecemos las propiedades "align-items" y "justify-content" en "center", podremos centrar sus elementos.
+                <input type="radio" value="false" name="question9"> Para establecer un elemento como flexible, podemos aplicar la propiedad "display" en "flex".
+                <p id="resultadoPorPregunta9" class="resultadoPorPregunta"></p>
+                <p id="infoPregunta9" class="infoPregunta"></p>
+
+
+                <br>
+
+                <h4>10-Para manejar el diseño en muchas filas y columnas, una manera adecuada de hacerlo es utilizar CSS Grid.</h4>
+
+                <input type="radio" value="true" name="question10"> True
+                <input type="radio" value="false" name="question10"> False
+                <p id="resultadoPorPregunta10" class="resultadoPorPregunta"></p>
+                <p id="infoPregunta10" class="infoPregunta"></p>
+
+                
+
+                <input class="btn" type="submit" value="enviar">
+                <button class="btn" id="btn1">Dime porque</button>
+            <p id="resultadoTotal"></p>
+        </form>
+    </section>
+
+
+    <script src="./preguntasSemana14.js"></script>
+</body>
+</html>
