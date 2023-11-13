@@ -65,7 +65,7 @@ let infoPregunta10 = document.getElementById("infoPregunta10");
 const btn1 = document.getElementById('btn1');
 
 btn1.addEventListener('click', function(){
-    infoPregunta1.innerHTML = "El responsive design se refiere a la práctica de diseñar y desarrollar sitios web y aplicaciones de manera que se adapten y se vean adecuados en una variedad de dispositivos y tamaños de pantalla, como computadoras de escritorio, tabletas y dispositivos móviles.";
+    infoPregunta1.innerHTML = "Respuesta correcta: 'c'.El responsive design se refiere a la práctica de diseñar y desarrollar sitios web y aplicaciones de manera que se adapten y se vean adecuados en una variedad de dispositivos y tamaños de pantalla, como computadoras de escritorio, tabletas y dispositivos móviles.";
 
     infoPregunta2.innerHTML = "Verdadero. Las unidades relativas en CSS, como por ejemplo porcentajes (%), ems (em), rem (root em), y vw/vh (viewport width/viewport height), permiten que los elementos de diseño se ajusten de manera más flexible a distintos tamaños de pantalla. Al utilizar unidades relativas en lugar de unidades fijas como píxeles (px), los elementos se escalan en relación con el tamaño de la fuente, la ventana gráfica o el contenedor padre, lo que facilita la adaptación del diseño a diferentes dispositivos y tamaños de pantalla. Esto es fundamental en el diseño responsivo para lograr una experiencia de usuario consistente y efectiva en una amplia gama de dispositivos.";
 
@@ -81,7 +81,7 @@ btn1.addEventListener('click', function(){
 
     infoPregunta8.innerHTML = "Falso. Bootstrap es un framework de diseño frontend que se enfoca en la capa de presentación de una aplicación web, proporcionando componentes y estilos CSS predefinidos para facilitar la creación de interfaces de usuario atractivas y responsivas. No está diseñado para definir cómo se interactúa con el servidor ni para trabajar directamente con datos en formato JSON. Para manejar la interacción con el servidor y el procesamiento de datos JSON, generalmente se utilizan otras tecnologías, como JavaScript, jQuery, bibliotecas específicas de JavaScript o frameworks de desarrollo web en el lado del cliente y del servidor.";
 
-    infoPregunta9.innerHTML = "Los contenedores flexibles en CSS (utilizando 'display: flex') se utilizan principalmente para el diseño en una sola dimensión, ya sea en una fila o en una columna. No están diseñados para gestionar automáticamente un diseño en múltiples filas y columnas al mismo tiempo.";
+    infoPregunta9.innerHTML = "Respuesta correcta: 'a'.Los contenedores flexibles en CSS (utilizando 'display: flex') se utilizan principalmente para el diseño en una sola dimensión, ya sea en una fila o en una columna. No están diseñados para gestionar automáticamente un diseño en múltiples filas y columnas al mismo tiempo.";
 
     infoPregunta10.innerHTML = "Verdadero. CSS Grid es una forma adecuada de manejar el diseño en múltiples filas y columnas en una página web. CSS Grid es una especificación de CSS que permite crear diseños de cuadrícula bidimensionales de manera muy eficiente. Con CSS Grid, puedes definir filas y columnas en un diseño, colocar elementos en ubicaciones específicas de la cuadrícula y controlar cómo se distribuyen y alinean los elementos en función de las filas y columnas definidas. Es especialmente útil para diseños complejos y estructurados que requieren un mayor control sobre el posicionamiento de elementos en la página.";
 
