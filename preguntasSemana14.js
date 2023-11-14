@@ -9,7 +9,7 @@ document.forms["quizForm"].addEventListener("submit", function (event) {
         "false", //4
         "true", //5
         "false", //6
-        "false", //7
+        "true", //7
         "false", //8
         "true", //9
         "true"]; //10
@@ -75,7 +75,7 @@ btn1.addEventListener('click', function(){
 
     infoPregunta5.innerHTML = "Verdadero. En Bootstrap y en otros frameworks de diseño web, un componente se refiere a una pieza de código HTML predefinida que cumple una función específica y se puede utilizar en una página web para agregar ciertas características o elementos de manera más sencilla. Por ejemplo, una barra de navegación, un botón, una tarjeta o un formulario son ejemplos de componentes en Bootstrap. Estos componentes están diseñados para facilitar la creación de interfaces web de manera eficiente y consistente al proporcionar un código HTML y CSS preestablecido para esas funciones, lo que ahorra tiempo y esfuerzo en el desarrollo web.";
 
-    infoPregunta6.innerHTML = "Verdadero. Las media queries en CSS se utilizan para aplicar estilos específicos a un documento web según ciertos criterios relacionados con el tamaño de la pantalla y otras características del dispositivo. Las media queries utilizan selectores CSS para definir condiciones bajo las cuales se aplicarán los estilos. Por ejemplo, se pueden definir reglas de estilo que se apliquen solo cuando la pantalla tenga un ancho máximo o mínimo, o cuando el dispositivo cumpla con ciertas características, como ser una pantalla de impresión o una pantalla con orientación vertical u horizontal. Las media queries son esenciales para el diseño responsivo, ya que permiten adaptar el diseño de un sitio web a diferentes tamaños y tipos de dispositivos.";
+    infoPregunta6.innerHTML = "Falso. Las media queries en CSS se utilizan para aplicar estilos específicos a un documento web según ciertos criterios relacionados con el tamaño de la pantalla y otras características del dispositivo. Las media queries utilizan selectores CSS para definir condiciones bajo las cuales se aplicarán los estilos. Por ejemplo, se pueden definir reglas de estilo que se apliquen solo cuando la pantalla tenga un ancho máximo o mínimo, o cuando el dispositivo cumpla con ciertas características, como ser una pantalla de impresión o una pantalla con orientación vertical u horizontal. Las media queries son esenciales para el diseño responsivo, ya que permiten adaptar el diseño de un sitio web a diferentes tamaños y tipos de dispositivos.";
 
     infoPregunta7.innerHTML = "";
 
