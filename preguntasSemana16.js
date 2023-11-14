@@ -75,9 +75,9 @@ btn1.addEventListener('click', function(){
 
     infoPregunta5.innerHTML = "Respuesta correcta: 'a'.La función require en Node.js se utiliza para importar módulos en archivos JavaScript. Permite acceder a funciones, objetos u otros elementos definidos en otros archivos o módulos para su uso en el archivo actual. No se utiliza para ejecutar un servidor web, realizar peticiones asíncronas como el fetch, ni crear un API directamente; su función principal es facilitar la modularidad en el desarrollo de aplicaciones en Node.js.";
 
-    infoPregunta6.innerHTML = "Respuesta correcta: 'a'";
+    infoPregunta6.innerHTML = "Respuesta correcta: 'a'. Este comando ejecutará el script definido en la sección 'scripts' del archivo package.json con la clave 'dev', que en este caso está configurado como 'nodemon app.js'.";
 
-    infoPregunta7.innerHTML = "Respuesta correcta: 'd'";;
+    infoPregunta7.innerHTML = "Respuesta correcta: 'd'. La sección 'devDependencies' se usa para listar las dependencias que son necesarias solo durante el desarrollo de la aplicación, pero no son esenciales para la ejecución de la aplicación en un entorno de producción. En este caso, nodemon es una herramienta que se utiliza durante el desarrollo para reiniciar automáticamente la aplicación cuando se realizan cambios en el código. Estas dependencias pueden instalarse utilizando el comando npm install --save-dev.";
 
     infoPregunta8.innerHTML = "Respuesta correcta: 'b'.npm es la herramienta de gestión de paquetes para Node.js. Permite a los desarrolladores instalar, compartir y gestionar las dependencias de sus proyectos de Node.js. Además, facilita la instalación de paquetes de código abierto y su integración en proyectos, lo que simplifica el proceso de desarrollo en entornos Node.js.";
 
