@@ -6,7 +6,7 @@ document.forms["quizForm"].addEventListener("submit", function (event) {
         "true", //1
         "false",  //2
         "true", //3
-        "false", //4
+        "true", //4
         "true", //5
         "true", //6
         "true", //7
@@ -71,13 +71,13 @@ btn1.addEventListener('click', function(){
 
     infoPregunta3.innerHTML = "Verdadero.  Para crear un archivo package.json básico, puedes ejecutar el comando npm init en la terminal. Este comando te hará una serie de preguntas interactivas sobre la configuración de tu proyecto, como el nombre, la versión, la descripción, el punto de entrada del script, las pruebas de comando, el repositorio, las palabras clave y el autor. Una vez que hayas respondido a estas preguntas, se generará un archivo package.json con la información proporcionada.";
 
-    infoPregunta4.innerHTML = "Respuesta correcta: 'a'.Cada aplicación o proceso que utiliza un servidor web debe ocupar un puerto único en el sistema operativo. Si dos aplicaciones intentan utilizar el mismo puerto al mismo tiempo, habrá un conflicto y la segunda aplicación que intente utilizar ese puerto recibirá un error. Es importante que los puertos estén correctamente configurados para evitar conflictos y garantizar que cada aplicación pueda ejecutarse correctamente.";
+    infoPregunta4.innerHTML = "Respuesta correcta: 'c'.Cada aplicación o proceso que utiliza un servidor web debe ocupar un puerto único en el sistema operativo. Si dos aplicaciones intentan utilizar el mismo puerto al mismo tiempo, habrá un conflicto y la segunda aplicación que intente utilizar ese puerto recibirá un error. Es importante que los puertos estén correctamente configurados para evitar conflictos y garantizar que cada aplicación pueda ejecutarse correctamente.";
 
-    infoPregunta5.innerHTML = "La función require en Node.js se utiliza para importar módulos en archivos JavaScript. Permite acceder a funciones, objetos u otros elementos definidos en otros archivos o módulos para su uso en el archivo actual. No se utiliza para ejecutar un servidor web, realizar peticiones asíncronas como el fetch, ni crear un API directamente; su función principal es facilitar la modularidad en el desarrollo de aplicaciones en Node.js.";
+    infoPregunta5.innerHTML = "Respuesta correcta: 'a'.La función require en Node.js se utiliza para importar módulos en archivos JavaScript. Permite acceder a funciones, objetos u otros elementos definidos en otros archivos o módulos para su uso en el archivo actual. No se utiliza para ejecutar un servidor web, realizar peticiones asíncronas como el fetch, ni crear un API directamente; su función principal es facilitar la modularidad en el desarrollo de aplicaciones en Node.js.";
 
-    infoPregunta6.innerHTML = "Verdadero. Las media queries en CSS se utilizan para aplicar estilos específicos a un documento web según ciertos criterios relacionados con el tamaño de la pantalla y otras características del dispositivo. Las media queries utilizan selectores CSS para definir condiciones bajo las cuales se aplicarán los estilos. Por ejemplo, se pueden definir reglas de estilo que se apliquen solo cuando la pantalla tenga un ancho máximo o mínimo, o cuando el dispositivo cumpla con ciertas características, como ser una pantalla de impresión o una pantalla con orientación vertical u horizontal. Las media queries son esenciales para el diseño responsivo, ya que permiten adaptar el diseño de un sitio web a diferentes tamaños y tipos de dispositivos.";
+    infoPregunta6.innerHTML = "Respuesta correcta: 'a'";
 
-    infoPregunta7.innerHTML = "";
+    infoPregunta7.innerHTML = "Respuesta correcta: 'd'";;
 
     infoPregunta8.innerHTML = "Respuesta correcta: 'b'.npm es la herramienta de gestión de paquetes para Node.js. Permite a los desarrolladores instalar, compartir y gestionar las dependencias de sus proyectos de Node.js. Además, facilita la instalación de paquetes de código abierto y su integración en proyectos, lo que simplifica el proceso de desarrollo en entornos Node.js.";
 
