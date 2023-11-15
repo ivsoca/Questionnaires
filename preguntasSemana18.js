@@ -77,13 +77,13 @@ btn1.addEventListener('click', function(){
 
     infoPregunta6.innerHTML = " El comando 'SELECT' se utiliza para recuperar datos de una tabla o realizar consultas en una base de datos. Permite especificar las columnas que deseas recuperar, las condiciones de búsqueda y otros criterios para obtener los datos deseados de la tabla.";
 
-    infoPregunta7.innerHTML = "";
+    infoPregunta7.innerHTML = "Respuesta correcta: 'a'";
 
-    infoPregunta8.innerHTML = "";
+    infoPregunta8.innerHTML = "Respuesta correcta: 'c'";
 
-    infoPregunta9.innerHTML = "";
+    infoPregunta9.innerHTML = "Respuesta correcta: 'a'";
 
-    infoPregunta10.innerHTML = "La palabra 'localhost' cuando se configura MariaDB (y en general en muchas aplicaciones de software) se refiere a que el servidor se está ejecutando en la propia computadora o en la misma máquina donde se está realizando la configuración. Es una forma de referirse a la dirección IP de loopback, que siempre se traduce a la dirección IP local de la computadora (127.0.0.1 en la mayoría de los sistemas).";
+    infoPregunta10.innerHTML = "Respuesta correcta: 'a'. La palabra 'localhost' cuando se configura MariaDB (y en general en muchas aplicaciones de software) se refiere a que el servidor se está ejecutando en la propia computadora o en la misma máquina donde se está realizando la configuración. Es una forma de referirse a la dirección IP de loopback, que siempre se traduce a la dirección IP local de la computadora (127.0.0.1 en la mayoría de los sistemas).";
 
 });
 

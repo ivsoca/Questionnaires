@@ -20,10 +20,10 @@
 
             <h4>1-¿Cómo se llama el lenguaje que se usa para interactuar con una base de datos relacional?</h3>
 
-                <input type="radio" value="false" name="question1"> JavaScript <br>
-                <input type="radio" value="false" name="question1"> Python  <br>
-                <input type="radio" value="false" name="question1"> Backend <br>
-                <input type="radio" value="true" name="question1"> SQL <br>
+                <input type="radio" value="false" name="question1"> a-JavaScript <br>
+                <input type="radio" value="false" name="question1"> b-Python  <br>
+                <input type="radio" value="false" name="question1"> c-Backend <br>
+                <input type="radio" value="true" name="question1"> d-SQL <br>
                 <p id="resultadoPorPregunta1" class="resultadoPorPregunta"></p>
                 <p id="infoPregunta1" class="infoPregunta"></p>
 
@@ -32,10 +32,10 @@
 
                 <h4>2-Con respecto a MariaDB, indica cuál de las siguientes afirmaciones es FALSA..</h4>
 
-                <input type="radio" value="false" name="question2"> Se puede conectar con MariaDB utilizando la librería "mysql", ya que MySQL y MariaDB son compatibles.<br>
-                <input type="radio" value="true" name="question2">Sólo se puede conectar con MariaDB usando la libreria "mariadb"..<br>
-                <input type="radio" value="false" name="question2"> MariaDB es un motor de base de datos relacional.<br>
-                <input type="radio" value="false" name="question2"> Para crear una tabla se usa el comando "CREATE TABLE...".<br>
+                <input type="radio" value="false" name="question2"> a-Se puede conectar con MariaDB utilizando la librería "mysql", ya que MySQL y MariaDB son compatibles.<br>
+                <input type="radio" value="true" name="question2"> b-Sólo se puede conectar con MariaDB usando la libreria "mariadb"..<br>
+                <input type="radio" value="false" name="question2"> c-MariaDB es un motor de base de datos relacional.<br>
+                <input type="radio" value="false" name="question2"> d-Para crear una tabla se usa el comando "CREATE TABLE...".<br>
                 <p id="resultadoPorPregunta2" class="resultadoPorPregunta"></p>
                 <p id="infoPregunta2" class="infoPregunta"></p>
 
@@ -44,8 +44,8 @@
 
                 <h4>3-Para crear una base de datos en MariaDB debemos utilizar NodeJS.</h4>
 
-                <input type="radio" value="true" name="question3"> True
-                <input type="radio" value="false" name="question3"> False
+                <input type="radio" value="true" name="question3"> True <br>
+                <input type="radio" value="false" name="question3"> False <br>
                 <p id="resultadoPorPregunta3" class="resultadoPorPregunta"></p>
                 <p id="infoPregunta3" class="infoPregunta"></p>
 
@@ -54,8 +54,8 @@
 
                 <h4>4-Para interactuar con un servidor de bases de datos vamos a utilizar un cliente web, como por ejemplo, Postman o HeidiSQL.</h4>
 
-                <input type="radio" value="true" name="question4"> True
-                <input type="radio" value="false" name="question4"> False
+                <input type="radio" value="true" name="question4"> True <br>
+                <input type="radio" value="false" name="question4"> False <br>
                 <p id="resultadoPorPregunta4" class="resultadoPorPregunta"></p>
                 <p id="infoPregunta4" class="infoPregunta"></p>
 
@@ -66,8 +66,8 @@
                     </h4>
 
 
-                <input type="radio" value="true" name="question5"> True
-                <input type="radio" value="false" name="question5"> False
+                <input type="radio" value="true" name="question5"> True <br>
+                <input type="radio" value="false" name="question5"> False <br>
                 <p id="resultadoPorPregunta5" class="resultadoPorPregunta"></p>
                 <p id="infoPregunta5" class="infoPregunta"></p>
 
@@ -88,11 +88,11 @@
 
                 <h4>7-Teniendo en cuenta el ejemplo del taller semanal individual, desde NodeJS, indica el código correcto para traer la información de todas las personas llamadas "Juan".</h4>
 
-                <input type="radio" value="true" name="question7"> const rows = await conn.query("SELECT id, name, lastname, email FROM people WHERE name = ?", ["Juan"]);<br>
-                <input type="radio" value="false" name="question7"> const rows = await conn.query("SELECT id, name, lastname, email FROM people = Juan");<br>
-                <input type="radio" value="false" name="question7"> 
+                <input type="radio" value="true" name="question7"> a-const rows = await conn.query("SELECT id, name, lastname, email FROM people WHERE name = ?", ["Juan"]);<br>
+                <input type="radio" value="false" name="question7"> b-const rows = await conn.query("SELECT id, name, lastname, email FROM people = Juan");<br>
+                <input type="radio" value="false" name="question7"> c-
                 const rows = await conn.query("SELECT id, name, lastname, email FROM people WHERE id = ?", ["Juan"]);<br>
-                <input type="radio" value="false" name="question7"> 
+                <input type="radio" value="false" name="question7"> d-
                 const rows = await conn.query("SELECT id, name, lastname, email IF people = Juan");<br>
                 <p id="resultadoPorPregunta7" class="resultadoPorPregunta"></p>
                 <p id="infoPregunta7" class="infoPregunta"></p>
@@ -102,12 +102,13 @@
 
                 <h4>8-Teniendo en cuenta el ejemplo del taller semanal individual, desde NodeJS, indica qué código eliminaría una persona con el id 4.</h4>
 
-                <input type="radio" value="true" name="question8">const resp = await conn.query("DELETE FROM people WHERE id=4");<br>
-                <input type="radio" value="false" name="question8"> 
+                
+                <input type="radio" value="false" name="question8"> a-
                 const resp = await conn.query("DELETE people WHERE id=4");<br>
-                <input type="radio" value="false" name="question8"> 
+                <input type="radio" value="false" name="question8"> b-
                 const resp = await conn.query("DELETE FROM people WHERE id=?", [req.id]);<br>
-                <input type="radio" value="false" name="question8"> const resp = await conn.query("DELETE people WHERE id=?", [req.params.id]);<br>
+                <input type="radio" value="true" name="question8"> c-const resp = await conn.query("DELETE FROM people WHERE id=4");<br>
+                <input type="radio" value="false" name="question8"> d- const resp = await conn.query("DELETE people WHERE id=?", [req.params.id]);<br>
                 <p id="resultadoPorPregunta8" class="resultadoPorPregunta"></p>
                 <p id="infoPregunta8" class="infoPregunta"></p>
 
@@ -116,11 +117,11 @@
 
                 <h4>9-¿Por qué es importante utilizar un bloque "catch" como se vio en el taller semanal individual?</h4>
 
-                <input type="radio" value="true" name="question9"> Porque en el contexto visto, permite capturar algún error que ocurra con la base de datos, esto nos da la posibilidad de enviarle una respuesta adecuada al cliente.
+                <input type="radio" value="true" name="question9"> a- Porque en el contexto visto, permite capturar algún error que ocurra con la base de datos, esto nos da la posibilidad de enviarle una respuesta adecuada al cliente.
                 Porque en el contexto visto, permite capturar algún error que ocurra con la base de datos, esto nos da la posibilidad de enviarle una respuesta adecuada al cliente.<br>
-                <input type="radio" value="false" name="question9"> No es importante, ya que Express en esos casos, le responde automáticamente al cliente una respuesta adecuada según los estándares de los API REST.<br>
-                <input type="radio" value="false" name="question9"> No es importante, ya que no es necesario el manejo de errores en el desarrollo de APIs.<br>
-                <input type="radio" value="false" name="question9"> Porque sino no compila el código.<br>
+                <input type="radio" value="false" name="question9"> b-No es importante, ya que Express en esos casos, le responde automáticamente al cliente una respuesta adecuada según los estándares de los API REST.<br>
+                <input type="radio" value="false" name="question9"> c-No es importante, ya que no es necesario el manejo de errores en el desarrollo de APIs.<br>
+                <input type="radio" value="false" name="question9"> d-Porque sino no compila el código.<br>
                 <p id="resultadoPorPregunta9" class="resultadoPorPregunta"></p>
                 <p id="infoPregunta9" class="infoPregunta"></p>
 
@@ -129,10 +130,10 @@
 
                 <h4>10-¿A qué se refiere la palabra "localhost" cuando configuramos MariaDB?</h4>
 
-                <input type="radio" value="true" name="question10"> Hace referencia a que el servidor se ejecuta en la propia computadora.<br>
-                <input type="radio" value="false" name="question10"> Hace referencia al puerto en que se ejecuta el servidor, este debe ser único.<br>
-                <input type="radio" value="false" name="question10"> Indica el protocolo utilizado para comunicarse con MariaDB.<br>
-                <input type="radio" value="false" name="question10"> Hace referencia al usuario "host" del servidor.<br>
+                <input type="radio" value="true" name="question10"> a- Hace referencia a que el servidor se ejecuta en la propia computadora.<br>
+                <input type="radio" value="false" name="question10"> b-Hace referencia al puerto en que se ejecuta el servidor, este debe ser único.<br>
+                <input type="radio" value="false" name="question10"> c-Indica el protocolo utilizado para comunicarse con MariaDB.<br>
+                <input type="radio" value="false" name="question10"> d-Hace referencia al usuario "host" del servidor.<br>
                 <p id="resultadoPorPregunta10" class="resultadoPorPregunta"></p>
                 <p id="infoPregunta10" class="infoPregunta"></p>
 
