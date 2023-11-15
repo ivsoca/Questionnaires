@@ -81,7 +81,7 @@ btn1.addEventListener('click', function(){
 
     infoPregunta8.innerHTML = "Respuesta correcta: 'c'";
 
-    infoPregunta9.innerHTML = "Respuesta correcta: 'a'El código proporcionado está configurado para funcionar con HTTP (http://localhost:3000), no con HTTPS (https://localhost:3000). Por lo tanto, si intentas acceder a la URL con el protocolo HTTPS, no podrás conectarte correctamente al servidor. Gracias por señalar eso y lamento la confusión.";
+    infoPregunta9.innerHTML = "Respuesta correcta: 'a'";
 
     infoPregunta10.innerHTML = "Respuesta correcta: 'a'. La palabra 'localhost' cuando se configura MariaDB (y en general en muchas aplicaciones de software) se refiere a que el servidor se está ejecutando en la propia computadora o en la misma máquina donde se está realizando la configuración. Es una forma de referirse a la dirección IP de loopback, que siempre se traduce a la dirección IP local de la computadora (127.0.0.1 en la mayoría de los sistemas).";
 

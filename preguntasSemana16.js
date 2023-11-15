@@ -81,7 +81,8 @@ btn1.addEventListener('click', function(){
 
     infoPregunta8.innerHTML = "Respuesta correcta: 'b'.npm es la herramienta de gestión de paquetes para Node.js. Permite a los desarrolladores instalar, compartir y gestionar las dependencias de sus proyectos de Node.js. Además, facilita la instalación de paquetes de código abierto y su integración en proyectos, lo que simplifica el proceso de desarrollo en entornos Node.js.";
 
-    infoPregunta9.innerHTML = "Respuesta correcta: 'c'.Los contenedores flexibles en CSS (utilizando 'display: flex') se utilizan principalmente para el diseño en una sola dimensión, ya sea en una fila o en una columna. No están diseñados para gestionar automáticamente un diseño en múltiples filas y columnas al mismo tiempo.";
+    infoPregunta9.innerHTML = "Respuesta correcta: 'c'.El código proporcionado está configurado para funcionar con HTTP (http://localhost:3000), no con HTTPS (https://localhost:3000). Por lo tanto, si intentas acceder a la URL con el protocolo HTTPS, no podrás conectarte correctamente al servidor. Gracias por señalar eso y lamento la confusión.";
+    
 
     infoPregunta10.innerHTML = "Respuesta correcta: 'd'.En Express, los parámetros de la URL se definen precediendo el nombre del parámetro con dos puntos (:) en la ruta. Estos parámetros se pueden acceder utilizando req.params. Por ejemplo, en una ruta como '/usuarios/:id', el valor de 'id' se puede acceder mediante req.params.id. Los parámetros de la URL son útiles para capturar valores específicos en las solicitudes y utilizarlos en el manejo de rutas.";
 
