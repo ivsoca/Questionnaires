@@ -13,10 +13,10 @@ html, body {
 } 
 
 
-
   .cuestionarios{
     margin: 10px;
-    /* background-color: rgb(233, 206, 171); */
+    background-color: rgb(73, 185, 255);
+    color: white;
     border-radius: 10px;
     height: 60px;
     width: 200px;
@@ -27,6 +27,7 @@ html, body {
 }
 
 .cuestionarios:hover{
-    background-color: rgb(250, 232, 208);
+    background-color: #d5f7f7;
+    color: rgb(64, 64, 64);
 }
 
