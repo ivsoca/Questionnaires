@@ -10,15 +10,12 @@
 <body>
     
     <div class="container">
-    <header>
-        <h1>Preguntas</h1>
-        <h3>Cuestionario semana 16</h3>
-    </header>
     
-    <section id="container1">
+    <section id="container1" class="col-sm-10 col-md-8 col-lg-6 mx-auto p-3 shadow-lg p-3 mb-5 bg-body rounded">
+        <h3>Cuestionario semana 16</h3>
         <form name="quizForm" onsubmit="return verificarRespuestas()">
 
-            <h4>1-Con respecto a NodeJS, indica cuál de las siguientes afirmaciones es correcta.</h3>
+            <p>1. Con respecto a NodeJS, indica cuál de las siguientes afirmaciones es correcta.</h3>
 
                 
                 <input type="radio"  value="false" name="question1"> a- NodeJS es un conjunto de técnicas y buenas prácticas que garantizan una buena experiencia de usuario en distinos dispositivos (incluso en servidores).<br>
@@ -34,7 +31,7 @@
             
                 <br>
 
-                <h4>2-El archivo package.json permite configurar los diferentes endpoints de nuestro API.</h4>
+                <p>2. El archivo package.json permite configurar los diferentes endpoints de nuestro API.</p>
 
                 <input type="radio"  value="true" name="question2"> True<br>
                 <input type="radio"  value="false" name="question2"> False<br>
@@ -44,7 +41,7 @@
 
                 <br>
 
-                <h4>3-Para crear un template básico del package.json podemos ejecutar el comando npm init.</h4>
+                <p>3. Para crear un template básico del package.json podemos ejecutar el comando npm init.</p>
 
                 <input type="radio"  value="true" name="question3"> True<br>
                 <input type="radio"  value="false" name="question3"> False<br>
@@ -54,7 +51,7 @@
                 
                 <br>
 
-                <h4>4-¿Qué sucede si dos aplicaciones intentan utilizar el mismo puerto para levantar un servidor web?</h4>
+                <p>4. ¿Qué sucede si dos aplicaciones intentan utilizar el mismo puerto para levantar un servidor web?</p>
 
                 <input type="radio"  value="false" name="question4"> 
                 a- Ambas aplicaciones funcionan correctamente y responden a la vez las peticiones (por ejemplo un fetch).<br>
@@ -68,7 +65,7 @@
 
                 <br>
 
-                <h4>5-La función require sirve para...</h4>
+                <p>5. La función require sirve para...</p>
 
 
                 <input type="radio"  value="true" name="question5"> a-Importar un módulo a un archivo JS.<br>
@@ -81,7 +78,7 @@
 
                 <br>
 
-                <h4>6-Observa la imagen y responde: ¿qué comando se debe ejecutar en la terminal para iniciar la aplicación con nodemon?</h4>
+                <p>6. Observa la imagen y responde: ¿qué comando se debe ejecutar en la terminal para iniciar la aplicación con nodemon?</p>
 
                 <img src="./sem16img6.png"class="card-img-top" alt="">
 
@@ -96,7 +93,7 @@
 
                 <br>
 
-                <h4>7-Observa la imagen y responde: ¿para qué sirve la sección "devDependencies" en el package.json?</h4>
+                <p>7. Observa la imagen y responde: ¿para qué sirve la sección "devDependencies" en el package.json?</p>
 
                 <img src="./sem16img7.png"class="card-img-top" alt="">
 
@@ -111,7 +108,7 @@
 
                 <br>
 
-                <h4>8-Indica el significado del comando "npm".</h4>
+                <p>8.Indica el significado del comando "npm".</p>
 
                 <input type="radio"  value="false" name="question8"> a- Network Pull Manager.<br>
                 <input type="radio"  value="true" name="question8"> b- Node Package Manager.<br>
@@ -124,8 +121,8 @@
 
                 <br>
 
-                <h4>9-¿Qué sucede si accedemos al navegador en la URL https://localhost:3000?</h4>
-
+                <p>9. ¿Qué sucede si accedemos al navegador en la URL https://localhost:3000?</p>
+ 
                 <img src="./sem16img9.png"class="card-img-top" alt="">
 
                 <input type="radio"  value="false" name="question9"> a- Podremos ver una página web donde se renderiza el contenido enviado en la etiqueta h1. <br>
@@ -140,7 +137,7 @@
 
                 <br>
 
-                <h4>10-Con respecto a los párametros nombrados en el taller, indica cuál de las siguientes afirmaciones es correcta.</h4>
+                <p>10. Con respecto a los párametros nombrados en el taller, indica cuál de las siguientes afirmaciones es correcta.</p>
                 
                 <input type="radio" value="false" name="question10"> a- Los parámetros son datos que vienen en el cuerpo de la respuesta, por lo tanto los accedemos mediante res.params.<br>
                 <input type="radio" value="false" name="question10"> b- 

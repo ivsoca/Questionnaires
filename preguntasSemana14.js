@@ -25,10 +25,12 @@ document.forms["quizForm"].addEventListener("submit", function (event) {
             puntuacion++;
             resultadoPorPregunta.textContent = "Correcto";
             resultadoPorPregunta.style.backgroundColor = "rgba(49, 202, 6, 0.89)";
+            resultadoPorPregunta.classList.add("tamano-personalizado");
             resultadoPorPregunta.style.color = "white"
-            resultadoPorPregunta.style.borderRadius  = "20px"
+            resultadoPorPregunta.style.borderRadius  = "10px"
             resultadoPorPregunta.style.height  = "29px"
-            resultadoPorPregunta.style.padding  = "4px"
+            resultadoPorPregunta.style.paddingBottom  = "10px"
+            resultadoPorPregunta.style.paddingLeft  = "20px"
 
             // Agregar una imagen
             // const nuevaImagen = document.createElement('img');
@@ -37,11 +39,13 @@ document.forms["quizForm"].addEventListener("submit", function (event) {
         } else {
             // Respuesta incorrecta
             resultadoPorPregunta.textContent = "Incorrecto";
+            resultadoPorPregunta.classList.add("tamano-personalizado");
             resultadoPorPregunta.style.backgroundColor = "rgb(246, 58, 45)";
             resultadoPorPregunta.style.color = "white"
-            resultadoPorPregunta.style.borderRadius  = "20px"
+            resultadoPorPregunta.style.borderRadius  = "10px"
             resultadoPorPregunta.style.height  = "29px"
-            resultadoPorPregunta.style.padding  = "4px"
+            resultadoPorPregunta.style.paddingBottom  = "10px"
+            resultadoPorPregunta.style.paddingLeft  = "20px"
         }
     }
 

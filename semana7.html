@@ -10,39 +10,40 @@
 <body>
     
     <div class="container">
-    <header>
-        <h1>Preguntas</h1>
-        <h3>Cuestionario semana 7</h3>
-    </header>
+
+       
     
-    <section id="container1">
+    <section id="container1" class="col-sm-10 col-md-8 col-lg-6 mx-auto p-3 shadow-lg p-3 mb-5 bg-body rounded">
+        <h2 class="h2">Cuestionario semana 7</h2>
         <form name="quizForm" onsubmit="return verificarRespuestas(), imagenesPut()">
             
-            <h4 >1-Git es un sistema de control de versiones que nos permite elegir la versión de los lenguajes que usamos en nuestros proyectos,
-                por ejemplo, en JavaScript podemos elegir entre ECMAScript 5 o ECMAScript 6..</h3>
+            <p>1. Git es un sistema de control de versiones que nos permite elegir la versión de los lenguajes que usamos en nuestros proyectos,
+                por ejemplo, en JavaScript podemos elegir entre ECMAScript 5 o ECMAScript 6..</p>
 
-                <input type="radio" value="true" name="question1" > True
+                <input type="radio" class="radio-input" value="true" name="question1" > True
+                <br>
                 <input type="radio" value="false" name="question1"> False
                 <p id="resultadoPorPregunta1" class="resultadoPorPregunta"></p>
                 <p id="infoPregunta1" class="infoPregunta"></p>
-
             
                 <!-- <div id="container-img"></div> -->
 
                 <br>
             
-                <h4>2-Cuando subo un cambio desde mi repositorio local a GitHub, usualmente decimos que hacemos un "push".</h4>
+                <p>2. Cuando subo un cambio desde mi repositorio local a GitHub, usualmente decimos que hacemos un "push".</p>
 
                 <input type="radio" value="true" name="question2"> True
+                <br>
                 <input type="radio" value="false" name="question2"> False
                 <p id="resultadoPorPregunta2" class="resultadoPorPregunta"></p>
                 <p id="infoPregunta2" class="infoPregunta"></p>
 
 
                 <br>
-                <h4>3-Cuando descargamos un repositorio de GitHub a nuestra computadora, usualmente decimos que estamos haciendo un "clon" del repo.</h4>
+                <p>3. Cuando descargamos un repositorio de GitHub a nuestra computadora, usualmente decimos que estamos haciendo un "clon" del repo.</p>
 
                 <input type="radio" value="true" name="question3"> True
+                <br>
                 <input type="radio" value="false" name="question3"> False
                 <p id="resultadoPorPregunta3" class="resultadoPorPregunta"></p>
                 <p id="infoPregunta3" class="infoPregunta"></p>
@@ -50,10 +51,11 @@
                 
                 <br>
 
-                <h4>4-Un evento es algo que sucede en el navegador, como por ejemplo mover el mouse, dar click a un botón, la carga de la página, etc.
-                    </h4>
+                <p>4. Un evento es algo que sucede en el navegador, como por ejemplo mover el mouse, dar click a un botón, la carga de la página, etc.
+                    </p>
 
                 <input type="radio" value="true" name="question4"> True
+                <br>
                 <input type="radio" value="false" name="question4"> False
                 <p id="resultadoPorPregunta4" class="resultadoPorPregunta"></p>
                 <p id="infoPregunta4" class="infoPregunta"></p>
@@ -61,9 +63,10 @@
 
                 <br>
 
-                <h4>5-El atributo HTML addEventListener me permite escribir código "in line" en la etiqueta para manejar el evento click.</h4>
+                <p>5. El atributo HTML addEventListener me permite escribir código "in line" en la etiqueta para manejar el evento click.</p>
 
                 <input type="radio" value="true" name="question5"> True
+                <br>
                 <input type="radio" value="false" name="question5"> False
                 <p id="resultadoPorPregunta5" class="resultadoPorPregunta"></p>
                 <p id="infoPregunta5" class="infoPregunta"></p>
@@ -71,9 +74,10 @@
 
                 <br>
 
-                <h4>6-La función fetch sólo sirve para traer archivos en formato JSON.</h4>
+                <p>6. La función fetch sólo sirve para traer archivos en formato JSON.</p>
 
                 <input type="radio" value="true" name="question6"> True
+                <br>
                 <input type="radio" value="false" name="question6"> False
                 <p id="resultadoPorPregunta6" class="resultadoPorPregunta"></p>
                 <p id="infoPregunta6" class="infoPregunta"></p>
@@ -81,9 +85,10 @@
 
                 <br>
 
-                <h4>7-Una cadena JSON sólo puede contener un objeto, ya que es la notación de objetos de JavaScript, por lo tanto, si necesitamos un array desde un servidor, utilizaríamos otro tipo de formato para el intercambio de información. </h4>
+                <p>7. Una cadena JSON sólo puede contener un objeto, ya que es la notación de objetos de JavaScript, por lo tanto, si necesitamos un array desde un servidor, utilizaríamos otro tipo de formato para el intercambio de información. </p>
 
                 <input type="radio" value="true" name="question7"> True
+                <br>
                 <input type="radio" value="false" name="question7"> False
                 <p id="resultadoPorPregunta7" class="resultadoPorPregunta"></p>
                 <p id="infoPregunta7" class="infoPregunta"></p>
@@ -91,9 +96,10 @@
 
                 <br>
 
-                <h4>8-innerHTML es una propiedad de cada elemento HTML que te permite obtener o modificar el contenido HTML que está entre las etiquetas de inicio y fin del elemento.</h4>
+                <p>8. innerHTML es una propiedad de cada elemento HTML que te permite obtener o modificar el contenido HTML que está entre las etiquetas de inicio y fin del elemento.</p>
 
                 <input type="radio" value="true" name="question8"> True
+                <br>
                 <input type="radio" value="false" name="question8"> False
                 <p id="resultadoPorPregunta8" class="resultadoPorPregunta"></p>
                 <p id="infoPregunta8" class="infoPregunta"></p>
@@ -101,9 +107,10 @@
 
                 <br>
 
-                <h4>9-La función fetch nos devuelve un objeto de tipo Promesa, y la misma se resuelve obteniendo un objeto de tipo Response que representa la respuesta HTTP.</h4>
+                <p>9. La función fetch nos devuelve un objeto de tipo Promesa, y la misma se resuelve obteniendo un objeto de tipo Response que representa la respuesta HTTP.</p>
 
                 <input type="radio" value="true" name="question9"> True
+                <br>
                 <input type="radio" value="false" name="question9"> False
                 <p id="resultadoPorPregunta9" class="resultadoPorPregunta"></p>
                 <p id="infoPregunta9" class="infoPregunta"></p>
@@ -112,9 +119,10 @@
 
                 <br>
 
-                <h4>10-Para traer cambios desde mi repositorio remoto a mi repositorio local, debo realizar/ejecutar "pull".</h4>
+                <p>10. Para traer cambios desde mi repositorio remoto a mi repositorio local, debo realizar/ejecutar "pull".</p>
 
                 <input type="radio" value="true" name="question10"> True
+                <br>
                 <input type="radio" value="false" name="question10"> False
                 <p id="resultadoPorPregunta10" class="resultadoPorPregunta"></p>
                 <p id="infoPregunta10" class="infoPregunta"></p>

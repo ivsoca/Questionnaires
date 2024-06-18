@@ -10,15 +10,12 @@
 <body>
     
     <div class="container">
-    <header>
-        <h1>Preguntas</h1>
-        <h3>Cuestionario semana 18</h3>
-    </header>
     
-    <section id="container1">
+    <section id="container1" class="col-sm-10 col-md-8 col-lg-6 mx-auto p-3 shadow-lg p-3 mb-5 bg-body rounded">
+        <h3>Cuestionario semana 18</h3>
         <form name="quizForm" onsubmit="return verificarRespuestas()">
 
-            <h4>1-¿Cómo se llama el lenguaje que se usa para interactuar con una base de datos relacional?</h3>
+            <p>1. ¿Cómo se llama el lenguaje que se usa para interactuar con una base de datos relacional?</p>
 
                 <input type="radio" value="false" name="question1"> a-JavaScript <br>
                 <input type="radio" value="false" name="question1"> b-Python  <br>
@@ -30,7 +27,7 @@
             
                 <br>
 
-                <h4>2-Con respecto a MariaDB, indica cuál de las siguientes afirmaciones es FALSA..</h4>
+                <p>2. Con respecto a MariaDB, indica cuál de las siguientes afirmaciones es FALSA..</p>
 
                 <input type="radio" value="false" name="question2"> a-Se puede conectar con MariaDB utilizando la librería "mysql", ya que MySQL y MariaDB son compatibles.<br>
                 <input type="radio" value="true" name="question2"> b-Sólo se puede conectar con MariaDB usando la libreria "mariadb"..<br>
@@ -42,7 +39,7 @@
 
                 <br>
 
-                <h4>3-Para crear una base de datos en MariaDB debemos utilizar NodeJS.</h4>
+                <p>3. Para crear una base de datos en MariaDB debemos utilizar NodeJS.</p>
 
                 <input type="radio" value="true" name="question3"> True <br>
                 <input type="radio" value="false" name="question3"> False <br>
@@ -52,7 +49,7 @@
                 
                 <br>
 
-                <h4>4-Para interactuar con un servidor de bases de datos vamos a utilizar un cliente web, como por ejemplo, Postman o HeidiSQL.</h4>
+                <p>4. Para interactuar con un servidor de bases de datos vamos a utilizar un cliente web, como por ejemplo, Postman o HeidiSQL.</p>
 
                 <input type="radio" value="true" name="question4"> True <br>
                 <input type="radio" value="false" name="question4"> False <br>
@@ -62,8 +59,8 @@
 
                 <br>
 
-                <h4>5-La sigla CRUD significa Create Reset Upload Download, y muestra las etapas por las cuales pasa un API al ejecutarse.
-                    </h4>
+                <p>5. La sigla CRUD significa Create Reset Upload Download, y muestra las etapas por las cuales pasa un API al ejecutarse.
+                    </p>
 
 
                 <input type="radio" value="true" name="question5"> True <br>
@@ -74,7 +71,7 @@
 
                 <br>
 
-                <h4>6-En MariaDB el comando que permite leer datos de una tabla es...</h4>
+                <p>6. En MariaDB el comando que permite leer datos de una tabla es...</p>
 
                 <input type="radio" value="true" name="question6"> SELECT <br>
                 <input type="radio" value="false" name="question6"> DELETE <br>
@@ -86,7 +83,7 @@
 
                 <br>
 
-                <h4>7-Teniendo en cuenta el ejemplo del taller semanal individual, desde NodeJS, indica el código correcto para traer la información de todas las personas llamadas "Juan".</h4>
+                <p>7. Teniendo en cuenta el ejemplo del taller semanal individual, desde NodeJS, indica el código correcto para traer la información de todas las personas llamadas "Juan".</p>
 
                 <input type="radio" value="true" name="question7"> a-const rows = await conn.query("SELECT id, name, lastname, email FROM people WHERE name = ?", ["Juan"]);<br>
                 <input type="radio" value="false" name="question7"> b-const rows = await conn.query("SELECT id, name, lastname, email FROM people = Juan");<br>
@@ -100,7 +97,7 @@
 
                 <br>
 
-                <h4>8-Teniendo en cuenta el ejemplo del taller semanal individual, desde NodeJS, indica qué código eliminaría una persona con el id 4.</h4>
+                <p>8. Teniendo en cuenta el ejemplo del taller semanal individual, desde NodeJS, indica qué código eliminaría una persona con el id 4.</p>
 
                 
                 <input type="radio" value="false" name="question8"> a-
@@ -115,7 +112,7 @@
 
                 <br>
 
-                <h4>9-¿Por qué es importante utilizar un bloque "catch" como se vio en el taller semanal individual?</h4>
+                <p>9. ¿Por qué es importante utilizar un bloque "catch" como se vio en el taller semanal individual?</p>
 
                 <input type="radio" value="true" name="question9"> a- Porque en el contexto visto, permite capturar algún error que ocurra con la base de datos, esto nos da la posibilidad de enviarle una respuesta adecuada al cliente.
                 Porque en el contexto visto, permite capturar algún error que ocurra con la base de datos, esto nos da la posibilidad de enviarle una respuesta adecuada al cliente.<br>
@@ -128,7 +125,7 @@
 
                 <br>
 
-                <h4>10-¿A qué se refiere la palabra "localhost" cuando configuramos MariaDB?</h4>
+                <p>10-¿A qué se refiere la palabra "localhost" cuando configuramos MariaDB?</p>
 
                 <input type="radio" value="true" name="question10"> a- Hace referencia a que el servidor se ejecuta en la propia computadora.<br>
                 <input type="radio" value="false" name="question10"> b-Hace referencia al puerto en que se ejecuta el servidor, este debe ser único.<br>
