@@ -2,10 +2,35 @@
 body{
     margin: 0;
     padding: 0;
+    background-color: var(--black-color) !important;
+    transition: background-color 0.5s, color 0.5s;
 }
 
 #container1{
     font-size: 18px;
+}
+
+:root{
+  --black-color: #252525;
+  --white-color:#ffffff;
+}
+
+.dark-theme{
+  --black-color: #ffffff;
+  --white-color:#000000;
+}
+
+#moon-icon{
+  width: 40px;
+  cursor: pointer;
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 10px;
+  /* Alineación vertical */
+  position: relative;
+  top: 6px;
+  margin-top: 10px;
+  transition: transform 0.5s, opacity 0.5s;
 }
 
   p{
